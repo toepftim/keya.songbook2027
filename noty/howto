@@ -1,7 +1,0 @@
-#touch all the songs in noty/song (in git root):
-for f in song/*; do touch noty/$f; done;
-
-#fill the *.tex files with basic structure (header is missing \setcounter{page}{x} \begin{song}{}{}{}) 
-for f in *.tex; do echo "\includegraphics[width=\textwidth]{noty/$f} \end{song} \pagebreak" > $f; done;
-
-# TODO:: auto generating with header
