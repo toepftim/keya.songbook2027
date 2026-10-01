@@ -1,0 +1,70 @@
+# Core LaTeX auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Intermediate and output documents
+*.dvi
+*.xdv
+*-converted-to.*
+# Uncomment the next line if you do NOT want to track compiled PDFs:
+# *.pdf
+
+# Bibliography auxiliaries (BibTeX / Biber / BibLaTeX)
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Build tools (latexmk, rubber, arara)
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+*.rubbercache
+arara.log
+
+# Beamer presentations
+*.nav
+*.pre
+*.snm
+*.vrb
+
+# Indexes, glossaries, and nomenclature
+*.idx
+*.ilg
+*.ind
+*.ist
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.lzo
+*.lzs
+*.nlo
+*.nls
+
+# Popular packages (minted, hyperref, todonotes, tikz)
+_minted*
+*.pyg
+*.brf
+*.tdo
+*.dpth
+*.md5
+*.auxlock
